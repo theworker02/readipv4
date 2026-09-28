@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/readipv4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read validation gates for ipv4 inputs before they hit prod.",
+  "bin": {
+    "readipv4": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/readipv4.git"
+  },
+  "homepage": "https://theworker02.github.io/readipv4/",
+  "keywords": [
+    "read",
+    "ipv4",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
